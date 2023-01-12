@@ -9,7 +9,7 @@ const config = {
   title: "DEPART コーディングガイドライン",
   tagline: "",
   url: "https://depart-develop.github.io/coding-guidelines/",
-  baseUrl: "/",
+  baseUrl: "/coding-guidelines/",
   trailingSlash: true,
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
