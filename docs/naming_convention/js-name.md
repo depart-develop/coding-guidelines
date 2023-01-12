@@ -1,10 +1,10 @@
 ---
-title: Javascript
+title: JavaScript
 sidebar_position: 4
 custom_edit_url: null
 ---
 
-## Javascript 命名リスト
+## JavaScript 命名リスト
 
 ### 記法形式
 
@@ -26,6 +26,6 @@ _※更新予定_
 
 下記外部記事などを参考にしてください。
 
-https://qiita.com/KeithYokoma/items/2193cf79ba76563e3db6
-https://php-archive.net/php/words-in-function-names/
-https://arakan-pgm-ai.hatenablog.com/entry/2019/04/15/000000
+https://qiita.com/KeithYokoma/items/2193cf79ba76563e3db6  
+https://php-archive.net/php/words-in-function-names/  
+https://arakan-pgm-ai.hatenablog.com/entry/2019/04/15/000000  

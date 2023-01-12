@@ -18,4 +18,4 @@ custom_edit_url: null
 
 ### ツール・サービス
 
-[JS 命名規則](./js-name/)
+[お役立ちツール・サービス](./tools/)
