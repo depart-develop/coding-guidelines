@@ -5,7 +5,7 @@ import styles from "./styles.module.css";
 const FeatureList = [
   {
     title: "ガイドライン",
-    img: "/img/img-guidelines.png",
+    img: "./img/img-guidelines.png",
     description: (
       <>
         成果物の品質維持と効率化を目的とした
@@ -17,7 +17,7 @@ const FeatureList = [
   },
   {
     title: "命名規則",
-    img: "/img/img-naming-convention.png",
+    img: "./img/img-naming-convention.png",
     description: (
       <>
         CSSやJavaScriptにおける命名ルールを定義しています。
