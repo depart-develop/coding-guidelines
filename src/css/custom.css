@@ -1,0 +1,140 @@
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+ @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap');
+ 
+/* You can override the default Infima variables here. */
+:root {
+  --ifm-color-primary: #649c35;
+  --ifm-color-primary-dark: #5c8f31;
+  --ifm-color-primary-darker: #54832c;
+  --ifm-color-primary-darkest: #4c7628;
+  --ifm-color-primary-light: #6ca939;
+  --ifm-color-primary-lighter: #74b53e;
+  --ifm-color-primary-lightest: #7dc044;
+  --ifm-code-font-size: 95%;
+  --ifm-font-family-base: 'Noto Sans JP', sans-serif;
+  --ifm-h1-font-size: 2.4rem;
+  --ifm-h2-font-size: 1.8rem;
+}
+
+/* For readability concerns, you should choose a lighter palette in dark mode. */
+[data-theme='dark'] {
+  --ifm-color-primary: #649c35;
+  --ifm-color-primary-dark: #649c35;
+  --ifm-color-primary-darker: #5c8f31;
+  --ifm-color-primary-darkest: #5c8f31;
+  --ifm-color-primary-light: #6ca939;
+  --ifm-color-primary-lighter: #74b53e;
+  --ifm-color-primary-lightest: #7dc044;
+}
+
+.docusaurus-highlight-code-line {
+  background-color: rgba(0, 0, 0, 0.1);
+  display: block;
+  margin: 0 calc(-1 * var(--ifm-pre-padding));
+  padding: 0 var(--ifm-pre-padding);
+}
+
+[data-theme='dark'] .docusaurus-highlight-code-line {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.navbar__toggle {
+  margin-right: 1rem;
+}
+
+.navbar__item {
+  margin: 0 20px;
+}
+
+.markdown h1:first-child {
+  --ifm-h1-font-size: 2rem;
+}
+
+.theme-doc-markdown h1 {
+  padding: 0.5em 0;
+}
+
+.theme-doc-markdown h2 {
+  padding-bottom: 0.5em;
+  font-size: 1.4rem;
+  border-bottom: 1px solid var(--ifm-color-primary);
+}
+
+.theme-doc-markdown h3 {
+  margin-top: 1.6em;
+  padding-left: 1em;
+  position: relative;
+  font-size: 1.2rem;
+}
+
+.theme-doc-markdown h3::before {
+  content: "";
+  width: 4px;
+  height: 1em;
+  background-color: var(--ifm-color-primary);
+  position: absolute;
+  left: 0;
+  top: 0.2em;
+}
+
+.theme-doc-markdown dl > div {
+  display: flex;
+  align-items: center;
+}
+
+.theme-doc-markdown dl > div + div {
+  margin-top: 0.8em;
+}
+
+.theme-doc-markdown dl > div > dt {
+  flex-shrink: 0;
+}
+
+.theme-doc-markdown dl > div > dd {
+  margin-left: 0.8em;
+}
+
+.label-required {
+  color: var(--ifm-color-danger-contrast-foreground);
+  background-color: var(--ifm-color-danger-contrast-background);
+  border-radius: var(--ifm-alert-border-radius);
+  display: inline-block;
+  padding: 0.1em 0.5em;
+  margin-right: 0.1em;
+}
+
+.label-recommend {
+  color: var(--ifm-color-info-contrast-foreground);
+  background-color: var(--ifm-color-info-contrast-background);
+  border-radius: var(--ifm-alert-border-radius);
+  display: inline-block;
+  padding: 0.1em 0.5em;
+  margin-right: 0.1em;
+}
+
+.footer--dark {
+  --ifm-footer-background-color: #191919;
+}
+
+@media print {
+  html {
+    font-size: 75%;
+  }
+/*   
+  .theme-doc-markdown h1 {
+    font-size: 2.2rem;
+  }
+
+  .theme-doc-markdown h2 {
+    font-size: 2rem;
+  }
+
+  .theme-doc-markdown h3 {
+    font-size: 1.8rem;
+  } */
+}
