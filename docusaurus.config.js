@@ -57,7 +57,7 @@ const config = {
         items: [
           {
             type: "doc",
-            docId: "guideline/intro",
+            docId: "guidelines/intro",
             position: "left",
             label: "ガイドライン",
           },
@@ -87,7 +87,7 @@ const config = {
           //   items: [
           //     {
           //       label: "はじめに",
-          //       to: "/guideline/intro",
+          //       to: "/guidelines/intro",
           //     },
           //   ],
           // },

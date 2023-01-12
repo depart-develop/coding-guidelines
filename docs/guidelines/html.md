@@ -153,7 +153,7 @@ htmlタグのlang属性にページで使用する主な言語（自然言語）
 ```html
 <section>
 <h2>HTMLガイドライン</h2>
-<p>段落テキスト <a href="/guideline/detail.html">ガイドラインについての詳細</a></p>
+<p>段落テキスト <a href="/guidelines/detail.html">ガイドラインについての詳細</a></p>
 </section>
 ```
 

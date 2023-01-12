@@ -13,7 +13,7 @@ const FeatureList = [
         Webサイト制作に必要なルールを定義しています。
       </>
     ),
-    href: "docs/guideline/intro/",
+    href: "docs/guidelines/intro/",
   },
   {
     title: "命名規則",
