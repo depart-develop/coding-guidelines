@@ -26,6 +26,8 @@ _※更新予定_
 
 下記外部記事などを参考にしてください。
 
+:::tip 参考になる外部記事
 https://qiita.com/KeithYokoma/items/2193cf79ba76563e3db6  
 https://php-archive.net/php/words-in-function-names/  
 https://arakan-pgm-ai.hatenablog.com/entry/2019/04/15/000000  
+:::
