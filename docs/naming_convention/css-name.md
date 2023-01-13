@@ -279,6 +279,6 @@ is-xxxxで使うことが多い。
 
 ## jsonファイル
 
-[css.json](./css.json)
+[css.json](pathname://../../../data/css.json)
 
 エディタのスニペットなどや辞書登録しやすくなればと思ってjsonファイルも用意しました。
