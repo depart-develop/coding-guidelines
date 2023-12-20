@@ -13,10 +13,10 @@ custom_edit_url: null
 - Mac OS X
   - Chrome 最新
   - Safari 最新
-- iOS 13 以上
+- iOS 15 以上
   - Chrome 最新
   - Safari 最新
-- Android 7 以上
+- Android 10 以上
   - Chrome 最新
 
 ※ 当社がサポートする標準環境であり、制作する各Webサイトの動作環境は別途定義します。
