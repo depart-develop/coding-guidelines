@@ -29,16 +29,16 @@ custom_edit_url: null
 :::tip コンポーネントファイルにCSSファイルを読み込んでいる場合に可能なパターン
 
 ```html
-<div class="componentsName">
-  <ul class="componentsName__lists">
-    <li class="componentsName__list">リスト</li>
+<div class="component-name">
+  <ul class="component-name__lists">
+    <li class="component-name__list">リスト</li>
   </ul>
 </div>
 ```
 
 ```scss
-// componentsName.scss
-.componentsName{
+// componentName.scss
+.component-name{
   &__lists{
     // something
   }
@@ -48,10 +48,11 @@ custom_edit_url: null
 }
 ```
 
-または下記も可能
+scopedではなくグローバルな状態であれば下記もおそらく可能です。
+※フレームワークの挙動を確認してください。
 
 ```html
-<div class="componentsName">
+<div class="component-name">
   <ul class="lists">
     <li class="list">リスト</li>
   </ul>
@@ -59,14 +60,55 @@ custom_edit_url: null
 ```
 
 ```scss
-// componentsName.scss
-.componentsName{
+// global.scss
+.lists{
+  // something
+}
+.list{
+  // something
+}
+
+// componentName.scss
+.component-name{
   .lists{
     // something
   }
   .list{
     // something
   }
+}
+```
+
+ReactでCSS Modulesの場合にはimportで読み込み、stylesなどの変数を参照する場合があります。
+その場合には下記のように記述することでscoped（他へ影響しない）な状態になります。
+
+ハイフンはエラーになるためキャメルケースを使用するか、Javascriptのテンプレートリテラル`` `${styles['component-name']}` ``で記述する必要があります。
+
+```jsx
+import styles from "./styles.module.scss";
+
+function Components() {
+  return (
+    <div className={styles.componentsName}>
+      <ul className={styles.lists}>
+        <li className={styles.list}>リスト</li>
+      </ul>
+    </div>
+  );
+}
+
+```
+
+```scss
+// styles.module.scss
+.componentName{
+  // something
+}
+.lists{
+  // something
+}
+.list{
+  // something
 }
 ```
 :::
