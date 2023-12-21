@@ -48,7 +48,7 @@ custom_edit_url: null
 }
 ```
 
-scopedではなくグローバルな状態であれば下記もおそらく可能です。
+scopedではなくグローバルな状態であれば下記もおそらく可能です。  
 ※フレームワークの挙動を確認してください。
 
 ```html
@@ -79,17 +79,17 @@ scopedではなくグローバルな状態であれば下記もおそらく可�
 }
 ```
 
-ReactでCSS Modulesの場合にはimportで読み込み、stylesなどの変数を参照する場合があります。
-その場合には下記のように記述することでscoped（他へ影響しない）な状態になります。
-
-ハイフンはエラーになるためキャメルケースを使用するか、Javascriptのテンプレートリテラル`` `${styles['component-name']}` ``で記述する必要があります。
+ReactでCSS Modulesの場合にはimportで読み込み、stylesなどの変数を参照する場合があります。  
+その場合には下記のように記述することでscoped（他へ影響しない）な状態になります。  
+  
+ハイフンはエラーになるためキャメルケースを使用するか、Javascriptのテンプレートリテラル`` `${styles['component-name']}` ``で記述する必要があります。  
 
 ```jsx
 import styles from "./styles.module.scss";
 
 function Components() {
   return (
-    <div className={styles.componentsName}>
+    <div className={styles.componentName}>
       <ul className={styles.lists}>
         <li className={styles.list}>リスト</li>
       </ul>
