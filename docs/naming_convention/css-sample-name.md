@@ -38,11 +38,11 @@ custom_edit_url: null
 
 ```scss
 // componentName.scss
-.component-name{
-  &__lists{
+.component-name {
+  &__lists {
     // something
   }
-  &__list{
+  &__list {
     // something
   }
 }
@@ -61,19 +61,19 @@ scopedではなくグローバルな状態であれば下記もおそらく可�
 
 ```scss
 // global.scss
-.lists{
+.lists {
   // something
 }
-.list{
+.list {
   // something
 }
 
 // componentName.scss
-.component-name{
-  .lists{
+.component-name {
+  .lists {
     // something
   }
-  .list{
+  .list {
     // something
   }
 }
@@ -101,13 +101,13 @@ function Components() {
 
 ```scss
 // styles.module.scss
-.componentName{
+.componentName {
   // something
 }
-.lists{
+.lists {
   // something
 }
-.list{
+.list {
   // something
 }
 ```
