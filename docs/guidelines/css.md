@@ -248,7 +248,7 @@ padding: 0;
 
 </details>
 
-## <span class="label-required">必須</span> カラーコードの16進表記
+## <span class="label-recommend">推奨</span> カラーコードの16進表記
 
 可能な限り3文字の16進表記を使用する。
 
