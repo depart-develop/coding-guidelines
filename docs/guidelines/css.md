@@ -397,7 +397,7 @@ color: #e5e5e5;
 
 </details>
 
-## <span class="label-required">必須</span> ブロック内のインデント
+## <span class="label-recommend">推奨</span> ブロック内のインデント
 
 すべてのブロック内をインデントする。
 
