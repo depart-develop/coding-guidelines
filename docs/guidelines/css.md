@@ -560,7 +560,7 @@ a:active {
 
 </details>
 
-## <span class="label-required">必須</span> ルールの分離
+## <span class="label-recommend">推奨</span> ルールの分離
 
 ルールは空行で区切る。
 
