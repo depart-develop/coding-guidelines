@@ -549,11 +549,10 @@ a:focus, a:active {
 :::tip GOOD
 
 ```css
-h1,
-h2,
-h3 {
-  font-weight: normal;
-  line-height: 1.2;
+a:focus,
+a:active {
+  position: relative;
+  top: 1px;
 }
 ```
 
