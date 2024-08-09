@@ -55,6 +55,16 @@ custom_edit_url: null
 
 :::
 
+:::tip GOOD
+
+```css
+.example {
+  color: blue;
+}
+```
+
+:::
+
 </details>
 
 ## <span class="label-required">必須</span> 行末尾の空白
