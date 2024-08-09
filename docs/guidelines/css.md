@@ -370,7 +370,7 @@ JavaScriptを利用してclass属性値を付与するなど、別の手段で�
 
 </details>
 
-## <span class="label-required">必須</span> 大文字は使用しない
+## <span class="label-recommend">推奨</span> 大文字は使用しない
 
 プロパティ値のコードは小文字のみを使用する。
 
