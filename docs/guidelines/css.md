@@ -115,7 +115,8 @@ div.content {}
 
 ## <span class="label-required">必須</span> クラス名の記法
 
-基本的にはBEM記法を推奨するが、プロジェクトごとに最適な記法ルールを検討し使用する。
+基本的に、単語の連結記法はハイフン区切りのケバブケースを使用する。
+ただし、ライブラリ等の制約でケバブケース以外の記法ルールが適している場合はこの限りではない。
 
 <details open>
 <summary>詳細</summary>
@@ -128,9 +129,8 @@ div.content {}
 /* 単語を分けず、そのまま連結している */
 .buttonprimary {}
 
-/* 同一モジュール内でルール化できていない */
-.infoitem {}
-.info_itemdate {}
+/* アンダースコアが使用されている */
+.search_result {}
 
 ```
 
@@ -141,8 +141,10 @@ div.content {}
 ```css
 .button-primary {}
 
-.m-info__item {}
-.m-info__date {}
+.search-result {}
+
+/* BEMでいう「Block」と「Element」の連結は例外的にアンダースコアを使ってもOK */
+.search-result__item {}
 ```
 
 :::
