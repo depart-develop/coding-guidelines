@@ -115,12 +115,13 @@ div.content {}
 
 ## <span class="label-required">必須</span> クラス名の記法
 
-単語の連結記法はハイフン区切りのケバブケースを使用する。
+基本的に、単語の連結記法はハイフン区切りのケバブケースを使用する。
+ただし、ライブラリ等の制約でケバブケース以外の記法ルールが適している場合はこの限りではない。
 
 <details open>
 <summary>詳細</summary>
 
-理解しやすく検索しやすいようにするため、単語はハイフンで区切ります。
+接頭辞なども活用しながら、理解しやすく検索しやすいことを目指します。
 
 :::caution BAD
 
@@ -130,6 +131,7 @@ div.content {}
 
 /* アンダースコアが使用されている */
 .search_result {}
+
 ```
 
 :::
@@ -140,6 +142,9 @@ div.content {}
 .button-primary {}
 
 .search-result {}
+
+/* BEMでいう「Block」と「Element」の連結は例外的にアンダースコアを使ってもOK */
+.search-result__item {}
 ```
 
 :::
@@ -245,7 +250,7 @@ padding: 0;
 
 </details>
 
-## <span class="label-required">必須</span> カラーコードの16進表記
+## <span class="label-recommend">推奨</span> カラーコードの16進表記
 
 可能な限り3文字の16進表記を使用する。
 
@@ -367,7 +372,7 @@ JavaScriptを利用してclass属性値を付与するなど、別の手段で�
 
 </details>
 
-## <span class="label-required">必須</span> 大文字は使用しない
+## <span class="label-recommend">推奨</span> 大文字は使用しない
 
 プロパティ値のコードは小文字のみを使用する。
 
@@ -546,11 +551,10 @@ a:focus, a:active {
 :::tip GOOD
 
 ```css
-h1,
-h2,
-h3 {
-  font-weight: normal;
-  line-height: 1.2;
+a:focus,
+a:active {
+  position: relative;
+  top: 1px;
 }
 ```
 
@@ -558,7 +562,7 @@ h3 {
 
 </details>
 
-## <span class="label-required">必須</span> ルールの分離
+## <span class="label-recommend">推奨</span> ルールの分離
 
 ルールは空行で区切る。
 
