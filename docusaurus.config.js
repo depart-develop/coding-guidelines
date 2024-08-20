@@ -6,7 +6,7 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: "DEPART コーディングガイドライン",
+  title: "departコーディングガイドライン",
   tagline: "",
   url: "https://depart-develop.github.io/coding-guidelines/",
   baseUrl: "/coding-guidelines/",
@@ -48,9 +48,9 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        // title: "DEPART コーディングガイドライン",
+        // title: "departコーディングガイドライン",
         logo: {
-          alt: "Depart",
+          alt: "depart",
           src: "img/logo.svg",
           srcDark: "img/logo_w.svg",
         },

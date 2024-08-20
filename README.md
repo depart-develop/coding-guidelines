@@ -1,4 +1,4 @@
-# DEPART Coding Guidelines
+# depart Coding Guidelines
 
 ## Installation
 
